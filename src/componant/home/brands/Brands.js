@@ -24,7 +24,7 @@ const Brands = () => {
     return (
         <BrandsWrapps>
         {
-            brands.map(bran=><img src={bran} alt='aaa'/>)
+            brands.map((bran,i)=><img key={i} src={bran} alt='aaa'/>)
         }
         </BrandsWrapps>
     );

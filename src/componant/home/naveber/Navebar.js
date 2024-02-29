@@ -53,7 +53,8 @@ export default function Navebar(props) {
             <CssBaseline />
             <AppBar component="nav" sx={{
                 backgroundColor: 'transparent',
-                boxShadow: 'none'
+                boxShadow: 'none',
+                position:'static'
             }}>
                 <Container>
                     <Toolbar>
